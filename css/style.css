@@ -1,16 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;800&family=Playfair+Display:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
     font-weight: 400;
     color: #222;
-    font-family: 'Lato', sans-serif;
-    background-color: #f6e8e5;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(167, 168, 170);
+    /* color: #f5f0f0; */
+    background-color: #101214;
 }
 
 h1 {
     /* font-family: "Playfair Display", serif; */
     font-size: 50px;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 3px;
     color: lightseagreen;
     -webkit-font-smoothing: antialiased;
@@ -22,6 +24,14 @@ header h2 {
     font-size: 1.2em;
     font-weight: normal;
     line-height: 0.7;
+}
+
+h2 {
+    color: #fff;
+}
+
+h3 > a {
+    color: #fff;
 }
 
 p {
@@ -58,7 +68,7 @@ main {
 }
 
 a {
-    color: #222;
+    color: #7A7C80;
 }
 
 
@@ -66,16 +76,19 @@ a {
     font-size: 25px;
     padding: 0px 8px;
     text-decoration: none;
-    color: #444;
+    color: rgb(167, 168, 170);
 }
 
 .social-links a:hover {
-    /* color: #3cb371; */
-    color: grey;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .projects a:hover {
-    color: grey;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .social-footer {
